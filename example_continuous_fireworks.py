@@ -36,7 +36,7 @@ while True:
     display.show(choice(fireworks))
     lights = sf.colour(choice(colours))
     sf.turn_on(lights)
-    for i in range(0, 9):
+    for i in range(0, 12):
         fade()
         lights = sf.fade(lights)
         sf.turn_on(lights)
