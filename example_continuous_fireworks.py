@@ -33,9 +33,9 @@ def fade():
                 display.set_pixel(x, y, value-1)
 
 while True:
+    display.show(choice(fireworks))
     lights = sf.colour(choice(colours))
     sf.turn_on(lights)
-    display.show(choice(fireworks))
     for i in range(0, 9):
         fade()
         lights = sf.fade(lights)
