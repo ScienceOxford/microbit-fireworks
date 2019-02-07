@@ -7,7 +7,7 @@ from microbit import pin1, sleep
 
 # Library to control Neopixel fading, to be imported into the main fireworks code.
 
-np = neopixel.NeoPixel(pin1, 12)
+np = neopixel.NeoPixel(pin1, 8)
 
 main = 150
 sec = int(main//2)
