@@ -1,0 +1,39 @@
+The micro:bit has limited memory, so the fireworks do not all fit onto one micro:bit.
+Therefore, I have split the file into four parts, which will be swapped out during the competition day.
+
+Look for your name below to find out which file your firework is on:
+
+Part1:
+- Annabel
+- Olivia
+- Frances
+- Farhad
+- Jem
+- Daniel
+- Oscar
+- Abby/Lucy
+
+Part2:
+- Adrian
+- Harris
+- Maya
+- James
+- Jacob
+
+Part3:
+- Jake
+- Alex
+- Anna
+- Charlie
+- Dylan
+- Evie
+- Louis
+
+Part4:
+- Isobel
+- Oliver
+- Toby
+- Leo
+- Zaniel
+
+Video here: https://youtu.be/iHpb1KZ_JMo
