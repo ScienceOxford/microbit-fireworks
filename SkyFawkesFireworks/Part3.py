@@ -1,7 +1,7 @@
-from microbit import display, Image, sleep, pin1
+from microbit import display, Image, sleep, pin0
 import neopixel
 
-np = neopixel.NeoPixel(pin1, 8)
+np = neopixel.NeoPixel(pin0, 8)
 
 def fade(time):
     for x in range(0, 5):
