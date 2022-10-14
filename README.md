@@ -1,5 +1,5 @@
 # microbit-fireworks
- Files for the 1.5 hour Creative Computing Club, Firecracking Coders
+ Files for the 1.5 hour Creative Computing Club, Firecracking Coders (Feb 2019) & Firecracking Coders (Nov 2022)
 
 *Developed by [ScienceOxford](https://scienceoxford.com) for educational purposes. Please give credit where applicable.
 <br>We love seeing what you've created, so tag us when you share! [@ScienceOxford](https://twitter.com/scienceoxford)*
