@@ -17,24 +17,79 @@
   <div id="intro">
     <p>Resources for the 'Firecracking Coders' Creative Computing Club.</p>
     <p>During this workshop, you will use Scratch and a BBC micro:bit to make and control and animated fireworks display.</p>
+    <p>This page recaps what <a href="https://bit.ly/Nov22CCC" target="_blank">we discussed as a group</a>.</p>
+    <img src=".\images\demo.gif" alt="screenshot of the Scratch editor screen with microbit extension" width="400px" height="auto">
+    <br>
     <br>
   </div>
 
   <div id="starter" class="left">
     <h3>Getting started</h3>
-    <p>...</p>
+    <p>To use a BBC micro:bit with Scratch, you need to <a href="https://scratch.mit.edu/microbit" target="_blank">follow the instructions here</a>.</p>
+    <p>Open a new Scratch project, your screen should look like this:</p>
+    <img src=".\images\scratch-microbit-editor.PNG" alt="screenshot of the Scratch editor screen with microbit extension" width="800px" height="auto">
     <br>
+    <p style="color:red">IF THIS IS YOUR FIRST TIME USING SCRATCH, HAVE A LOOK HERE : FIND INSTRUCTIONS / INFO ON SCRATCH WEBSITE</p>
+    <p>To make our firework program look cool, we need a good backdrop.</p>
+    <p>Click the Change Backdrop button on the bottom right.</p>
+    <img src=".\images\edit-backdrop.PNG" alt="screenshot of the Scratch editor screen, zoomed in on the choose backdrop button" width="300px" height="auto">
+    <br>
+    <p>Either choose a built in background, or create your own.</p>
+    <p>The Scratch cat (or a different character sprite!) is going to watch your fireworks display - decide where they are going to stand, and give them some starting instructions. For example:</p>
+    <img src=".\images\starting-instructions.PNG" alt="screenshot of Scratch code. when green flag clicked; go to x:-181 y:-112" width="400px" height="auto">
+    <br>
+    <br>
+  </div>
+
+  <div id="microbit" class="left">
+    <h3>Using a micro:bit</h3>
+    <p>Click the micro:bit extension menu, you are going to try out a few of the blocks to see how they work.</p>
+    <h5>Inputs - control Scratch with your micro:bit</h5>
+    <p><code>when A button pressed </code>- use this as a Scratch event, instead of clicking the green flag.</p>
+    <p><strong>Can you get the Scratch cat to do something interested when you press A on the micro:bit?</strong></p>
+    <img src=".\images\when-a-pressed.PNG" alt="screenshot of Scratch code. when A button pressed; glide 1 secs to random position; say Hi for 2 seconds" width="400px" height="auto">
+    <br>
+    <p>There are three other micro:bit event blocks, try them out and see what they do!</p>
+    <ul>
+      <li><code>when moved </code>&<code> when tilted </code>make use of the micro:bit <strong>accelerometer</strong> - it know when it is being moved around! Try out the different options.</li>
+      <li><code>when pin0 connected </code>uses <strong>capacitive touch</strong> - you can use your body to make a connection. Hold the micro:bit's 0 pin with one finger, and the GND pin with another finger!</li>
+    </ul>
+    <br>
+    <h5>Outputs - control your micro:bit from Scratch</h5>
+    <p>How could you add the micro:bit's display into your Scratch program?</p>
+    <ul>
+      <li><code>display &hearts; </code>puts an image on the micro:bit's display.</li>
+      <li><code>display text Hello </code>adds whatever text you write onto the micro:bit's display.</li>
+    </ul>
+    <p>How will you use this in your Scratch program?</p>
+    <img src=".\images\display-hi.PNG" alt="screenshot of Scratch code. when A button pressed; glide 1 secs to random position; say Hi for 2 seconds; display Hi" width="400px" height="auto">
+    <br>
+    <br>
+  </div>
+
+  <div id="costumes" class="left">
+    <h3>Creating a firework</h3>
+    <p>Now it's time to combine all of these things to create your firework display!</p>
+    <p>To make an animated firework, you can create 3 or 4 different costumes for a firework Sprite. By timing when the costumes change, you can make a cool display.</p>
+    <p>Start by making a new Sprite, and designing your first costume.</p>
+    <img src=".\images\create-sprite.PNG" alt="screenshot of the Scratch editor screen, zoomed in on the new sprite option" width="200px" height="auto">
+    <br>
+    <p>Designing your animation needs trial and error. Combine<code> switch costume to </code>blocks and movement blocks to get the effect you want.</p>
+    <p>Once you have designed your animation, you can 'set off' the firework with your micro:bit!</p>
+    <p>For example:</p>
+    <img src=".\images\firework-code.PNG" alt="screenshot of Scratch code. ..." width="400px" height="auto">
   </div>
 
   <div id="extensions" class="left">
     <h3>What next?</h3>
-    <p>Get creative and add different features to your project.</p>
-    <p>The links below will help you with a couple of our ideas!</p>
+    <p>Get creative and add different features to your display. Some ideas...</p>
+    <ul>
+      <li>Create a second firework, to be released with another micro:bit button.</li>
+      <li>Add sound effects to your display.</li>
+      <li>Use your micro:bit to add an emergency stop command, to stop more fireworks from being released!</li>
+      <li>Use crocodile clips to extend the reach of the micro:bit's<code> when pin connected </code>block.</li>
+    </ul>
   </div>
-
-  <nav class="links bg_green">
-    <a href="" target="_blank">...</a>
-  </nav>
 
   <footer class="links">
     <a href="https://github.com/ScienceOxford/microbit-fireworks" target="_blank">View on GitHub</a>
